@@ -1,0 +1,23 @@
+.CheckoutSummaryContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.CheckoutSummary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.CheckoutSummaryButtons {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .CheckoutSummary {
+        width: 80%;
+    }
+}
